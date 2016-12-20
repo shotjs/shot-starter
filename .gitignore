@@ -1,0 +1,7 @@
+*.log
+*.seed
+.env
+.npm
+.nyc_output
+.node_repl_history
+node_modules

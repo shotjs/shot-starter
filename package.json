@@ -1,0 +1,43 @@
+{
+  "name": "shot-starter",
+  "version": "0.0.0",
+  "description": "A realtime framework for build middleware layer in Node.js.",
+  "homepage": "http://shotjs.github.io",
+  "repository": "shotjs/shot",
+  "license": "MIT",
+  "author": "CJ Patoilo <cjpatoilo@gmail.com>",
+  "private": "true",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "dotenv-expand": "^0.1.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.14.0",
+    "globbies": "^0.0.3",
+    "helmet": "^3.1.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.3",
+    "morgan": "^1.7.0",
+    "opbeat": "^4.1.0",
+    "socket.io": "^1.7.2",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "husky": "^0.12.0",
+    "nsp": "^2.6.2",
+    "standard": "^8.6.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "standard && nsp check",
+    "precommit": "npm t",
+    "preinstall": "npm up",
+    "prestart": "npm i"
+  }
+}
