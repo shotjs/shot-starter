@@ -2,6 +2,7 @@
 
 > A realtime framework for build middleware layer in Node.js.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/90207b2b022e439680e7a5c8d427654c)](https://www.codacy.com/app/shotjs/shot?utm_source=github.com&utm_medium=referral&utm_content=shotjs/shot&utm_campaign=badger)
 [![Travis Status](https://travis-ci.org/shotjs/shot.svg?branch=master)](https://travis-ci.org/shotjs/shot?branch=master)
 [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/efthn2yp6c57gu1b?svg=true)](https://ci.appveyor.com/project/cjpatoilo/shot)
 [![Codacy Status](https://img.shields.io/codacy/grade/90207b2b022e439680e7a5c8d427654c/master.svg)](https://www.codacy.com/app/shotjs/shot/dashboard)
