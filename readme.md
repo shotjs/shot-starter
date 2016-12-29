@@ -1,44 +1,48 @@
-<a align="center" href="http://shotjs.github.io"><img width="100%" src="http://shotjs.github.io/images/thumbnail.png" alt="Shot - A realtime framework for build middleware layer in Node.js."></a>
+<a align="center" href="http://shotjs.org"><img width="100%" src="http://shotjs.org/images/thumbnail.png" alt="Shot - A fast streamline to build of realtime middleware layers in Node.js."></a>
 
-> A realtime framework for build middleware layer in Node.js.
+> A fast streamline to build of realtime middleware layers in Node.js.
 
 [![Travis Status](https://travis-ci.org/shotjs/shot.svg?branch=master)](https://travis-ci.org/shotjs/shot?branch=master)
-[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/efthn2yp6c57gu1b?svg=true)](https://ci.appveyor.com/project/cjpatoilo/shot)
 [![Codacy Status](https://img.shields.io/codacy/grade/90207b2b022e439680e7a5c8d427654c/master.svg)](https://www.codacy.com/app/shotjs/shot/dashboard)
-[![Dependencies Status](https://david-dm.org/shotjs/shot-generator/status.svg)](https://david-dm.org/shotjs/shot-generator)
-[![Version Status](https://badge.fury.io/js/shot-generator.svg)](https://www.npmjs.com/package/shot-generator)
-[![Download Status](https://img.shields.io/npm/dt/shot-generator.svg)](https://www.npmjs.com/package/shot-generator)
+[![Dependencies Status](https://david-dm.org/shotjs/shot.svg)](https://david-dm.org/shotjs/shot)
+[![Version Status](https://badge.fury.io/js/shot-cli.svg)](https://www.npmjs.com/package/shot-cli)
+[![Download Status](https://img.shields.io/npm/dt/shot-cli.svg)](https://www.npmjs.com/package/shot-cli)
 [![Gitter Chat](https://img.shields.io/badge/gitter-join_the_chat-4cc61e.svg)](https://gitter.im/shotjs/shot)
+
+
+## Why it's awesome?
+
+Shot is a fast streamline to build of realtime middleware layers in Node.js. No complexity. No stress. Using some technologies you love: Express, MonogoDB and Socket.IO. Specially designed for higher productivity to further enhance your time.
 
 
 ## Install
 
 ```sh
-$ npm install -g shot-generator
+$ npm install -g shot-cli
 ```
+
+*NOTE: Install this npm package with `-g` or `--global` to global use.*
+
 
 ## Usage
 
+Create a new app using the command `shot init`, then install dependencies and run with `npm start`.
+
 ```sh
-  $ shot --help
-
-    Usage:
-
-    $ shot <directory> [<options>]
-
-    Options:
-
-    -m, --model <name>      Add model <name> (defaults to user)
-    -h, --help              Display help information
-    -v, --version           Output version
-    -f, --force             force on non-empty directory
-
-    Examples:
-
-    $ shot /tmp/foo
-    $ shot /tmp/foo --model=user,product
-
+$ shot init new_app
+$ cd new_app
+$ npm start
 ```
+
+*NOTE: Please make sure your MongoDB is running. For MongoDB installation guide see [this](https://docs.mongodb.org/v3.0/installation/).*
+
+
+## Table of Contents
+
+- [Getting Started](http://shotjs.org/#getting-started)
+- [Tips](http://shotjs.org/#tips)
+- [Support](http://shotjs.org/#support)
+- [Examples](http://shotjs.org/#examples)
 
 
 ## Contributing
