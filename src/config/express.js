@@ -21,7 +21,7 @@ process.env.PORT = process.env.PORT || 3000;
 
 function authenticated (req, res, next) {
   if (req.headers.authenticated === process.env.AUTHENTICATED) return next();
-  res.status(403).json({ message: 'Not authorized!' });
+  res.status(401).json({ message: 'Not authorized!' });
 }
 
 function init (app) {
