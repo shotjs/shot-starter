@@ -1,17 +1,17 @@
-'use strict'
-const Model = require('./model')
+'use strict';
+const Model = require('./model');
 
 function register (socket) {
-  Model.schema.post('save', doc => onSave(socket, doc))
-  Model.schema.post('remove', doc => onRemove(socket, doc))
-}
+  Model.schema.post('save', doc => onSave(socket, doc));
+  Model.schema.post('remove', doc => onRemove(socket, doc));
+};
 
 function onSave (socket, doc, cb) {
-  socket.emit('user:save', doc)
-}
+  socket.emit('user:save', doc);
+};
 
 function onRemove (socket, doc, cb) {
-  socket.emit('user:remove', doc)
-}
+  socket.emit('user:remove', doc);
+};
 
-exports.register = register
+exports.register = register;
