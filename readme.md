@@ -2,6 +2,7 @@
 
 > A fast streamline to build of realtime middleware layers in Node.js.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/90207b2b022e439680e7a5c8d427654c)](https://www.codacy.com/app/shotjs/shot?utm_source=github.com&utm_medium=referral&utm_content=shotjs/shot&utm_campaign=badger)
 [![Travis Status](https://travis-ci.org/shotjs/shot.svg?branch=master)](https://travis-ci.org/shotjs/shot?branch=master)
 [![Codacy Status](https://img.shields.io/codacy/grade/90207b2b022e439680e7a5c8d427654c/master.svg)](https://www.codacy.com/app/shotjs/shot/dashboard)
 [![Dependencies Status](https://david-dm.org/shotjs/shot.svg)](https://david-dm.org/shotjs/shot)
