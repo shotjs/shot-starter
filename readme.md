@@ -1,4 +1,4 @@
-<a align="center" href="http://shotjs.org"><img width="100%" src="http://shotjs.org/images/thumbnail.png" alt="Shot - A fast streamline to build of realtime middleware layers in Node.js."></a>
+<a align="center" href="http://shotjs.github.io"><img width="100%" src="http://shotjs.github.io/images/thumbnail.png" alt="Shot - A realtime framework for build middleware layers in Node.js."></a>
 
 > A fast streamline to build of realtime middleware layers in Node.js.
 
@@ -17,11 +17,24 @@ Shot is a fast streamline to build of realtime middleware layers in Node.js. No 
 
 ## Install
 
-```sh
-$ npm install -g shot-cli
+
+**Install with npm**
+
+```bash
+$ npm install shot-cli --global
 ```
 
-*NOTE: Install this npm package with `-g` or `--global` to global use.*
+**Install with Yarn**
+
+```bash
+$ yarn global add shot-cli
+```
+
+Run with npx (without installing)
+
+```bash
+$ npx shot-cli
+```
 
 
 ## Usage
@@ -39,10 +52,10 @@ $ npm start
 
 ## Table of Contents
 
-- [Getting Started](http://shotjs.org/#getting-started)
-- [Tips](http://shotjs.org/#tips)
-- [Support](http://shotjs.org/#support)
-- [Examples](http://shotjs.org/#examples)
+- [Getting Started](http://shotjs.github.io/#getting-started)
+- [Tips](http://shotjs.github.io/#tips)
+- [Support](http://shotjs.github.io/#support)
+- [Examples](http://shotjs.github.io/#examples)
 
 
 ## Contributing
